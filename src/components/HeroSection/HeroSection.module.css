@@ -1,0 +1,41 @@
+.bg-image {
+  height: 800px;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(40, 38, 38, 0.159),
+      rgba(90, 77, 77, 0.327)
+    ),
+    url("../../assets/images/trip.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+  gap: 1rem;
+}
+
+.bg-image h1 {
+  font-size: 3rem;
+}
+
+.bg-image p {
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+.bg-image button {
+  padding: 0.8rem;
+  background: transparent;
+  color:aliceblue;
+  border: 2px solid aliceblue;
+}
+.bg-image button:hover {
+    background-color: white;
+    color: black;
+}
+
+.bg-image div {
+  display: flex;
+  gap: 10px;
+}
