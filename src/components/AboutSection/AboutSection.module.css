@@ -1,0 +1,95 @@
+.about {
+  /* padding-bottom: 4rem; */
+  background-color: #e4dddd;
+  min-height: 100vh;
+}
+
+.hero-section {
+  text-align: center;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  background-color: #751e1e;
+  color: aliceblue;
+}
+
+.hero-section h1 {
+  font-size: 3rem;
+}
+
+.hero-section p {
+  font-size: 2rem;
+}
+
+.banner {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+}
+
+.banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.6);
+}
+
+.banner h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.about h2 {
+  margin-top: 2rem;
+  font-size: 1.75rem;
+}
+
+.about p {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.about ul {
+  padding-left: 1.5rem;
+  color: #555;
+}
+
+.about li {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.about div {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin: 0 auto;
+}
+
+.about .container {
+  display: flex;
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}
+
+.about img {
+  max-height: 320px;
+  border-radius: 25px;
+}
+
+.why {
+  text-align: center;
+  background-color: bisque;
+  color: rgb(179, 90, 90);
+}
+
+.why h2 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
