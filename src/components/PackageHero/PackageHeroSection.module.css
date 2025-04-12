@@ -1,0 +1,14 @@
+.hero {
+  padding: 3.5rem;
+  background-color: rgb(166, 178, 204);
+  color: aliceblue;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 2rem;
+}

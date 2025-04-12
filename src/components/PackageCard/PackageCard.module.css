@@ -1,0 +1,25 @@
+.tourcard {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  border-radius: 10px;
+  width: 320px;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease;
+}
+
+.tourcard:hover {
+  transform: translateY(-5px);
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0.5rem 0;
+}
+
+li {
+  margin-bottom: 0.25rem;
+  font-size: 0.95rem;
+  color: #444;
+}
