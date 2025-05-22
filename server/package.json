@@ -1,0 +1,38 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Tours & Travels backend",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "api",
+    "mvc",
+    "backend"
+  ],
+  "author": "Praneeth Katuri",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/praneeth-katuri/create-express-mvc.git"
+  },
+  "bugs": {
+    "url": "https://github.com/praneeth-katuri/create-express-mvc/issues"
+  },
+  "homepage": "",
+  "engines": {
+    "node": ">=22.15.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
