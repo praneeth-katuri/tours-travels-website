@@ -1,0 +1,76 @@
+.contactSection {
+  padding: 4rem 2rem;
+  background-color: #dfcccc;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(228, 212, 212, 0.1);
+}
+
+.contactSection h2 {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.contactSection p {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+}
+
+.contactSection label {
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.contactSection input,
+textarea {
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.submitBtn {
+  background-color: #dcd097;
+  color: white;
+  padding: 0.8rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.submitBtn:hover {
+  background-color: #d6f2b0;
+}
+
+.hero {
+  padding: 3.5rem;
+  background-color: rgb(166, 178, 204);
+  color: aliceblue;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 2rem;
+}
