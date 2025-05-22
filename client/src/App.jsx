@@ -1,12 +1,6 @@
-import './App.css'
+import "./App.css";
+import Routing from "./routes/Routing";
 
-function App() {
+const App = () => <Routing />;
 
-  return (
-    <>
-	<p>hello</p>
-    </>
-  )
-}
-
-export default App
+export default App;
