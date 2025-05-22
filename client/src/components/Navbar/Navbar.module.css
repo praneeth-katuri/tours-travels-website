@@ -1,0 +1,36 @@
+.navbar {
+  background-color: antiquewhite;
+  padding: 1.5rem 0;
+}
+
+.navcontent {
+  margin: 0 auto;
+  max-width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.logo a {
+  color: black;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.logo span {
+  color: red;
+}
+.nav-links a {
+  color: rgb(81, 80, 80);
+  font-weight: 600;
+}
+
+.nav-links a:hover {
+  color: black;
+}
